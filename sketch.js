@@ -96,7 +96,7 @@ if(distance<=lmango.r+lstone.r){
 }
 
 function keyPressed(){
-	if(keyCode===32){
+	if(keyCode==="space"){
 		Matter.Body.setPosition(stone1.body, {x: 150, y:570})
 		band1.attach(stone1.body);
 	}
